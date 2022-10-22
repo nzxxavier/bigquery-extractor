@@ -2,34 +2,21 @@
 destination=[Clickhouse, MongoDB]
 
 [bigquery]
-project=hhodata-b96cc
-dataset_id=analytics_286602884
+project=XXX
+dataset_id=XXX
 # 读取archive数据
-# table_id_prefix=events_
+# table_id_prefix=XXX
 # 读取实时数据
-# table_id_prefix=events_intraday
+# table_id_prefix=XXX
 location=asia-southeast1
 
 [google_cloud_storage]
-bucket_name=7sgood-ga-sg-1
-
-[oss]
-access_key_id=LTAI5tAWUJd8EZD7yoEzVCiL
-access_key_secret=gxZ5rc15sfVUX02ao8wxerH9Mba5Kp
-endpoint=https://oss-ap-southeast-1.aliyuncs.com
-
-[mongo]
-host=192.168.30.40
-port=27017
-database=bigquery
-collection=events_intraday
-username=mubai
-password=nzhx1234$
+bucket_name=XXX
 
 [clickhouse]
-host=192.168.30.30
-port=30160
-database=hho_analytics
-table=ga4_events_logs_realtime_dist
-user=clickhouse_operator
-password=clickhouse_operator_password
+host=XXX
+port=XXX
+database=XXX
+table=XXX
+user=XXX
+password=XXX
