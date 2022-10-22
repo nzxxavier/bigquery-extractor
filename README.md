@@ -13,7 +13,7 @@ vim reader/reader.py
 
 ## 环境变量
 ```shell
-export GOOGLE_APPLICATION_CREDENTIALS="./temp/hhodata-b96cc-449cb913ab2b.json"
+export GOOGLE_APPLICATION_CREDENTIALS="XXX"
 ```
 
 ## 启动脚本
